@@ -1,0 +1,45 @@
+h1 {
+    color: red
+}
+
+P {
+    color: #00ccff
+}
+
+div {
+    background-color: #ff00995e
+}
+
+.jacket {
+    color: darkgoldenrod
+}
+
+body {
+    background-image: url("imp2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contener {
+ display: flex;
+}
+.box{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+position: relative;
+animation-duration: 2s;
+animation-name: anim1;
+animation-iteration-count: infinite;
+animation-fill-mode: backword;
+}
+
+@keyframes anim1 {
+    from{  
+        height:100px;
+    }
+    to{
+        height:50px
+    }
+}

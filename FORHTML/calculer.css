@@ -1,0 +1,27 @@
+body{
+    background-image:url(background\ img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#firsttitle
+{
+    font-size: 50px;
+color:orangered ;
+text-shadow: 5px 2px black;
+}
+ #border{
+    background-color: teal;
+    margin: 35px;
+    padding :15px;
+    border: 200px;
+} 
+.answerA{
+text-align: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: oblique;
+color:rgb(232, 181, 160);
+font-weight: 300;
+font-size: 35px;
+background-color:#4c3b35 ;
+}

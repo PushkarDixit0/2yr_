@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculer.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+   
+    <figure class="text-center">
+        <blockquote class="blockquote">
+          <p id="firsttitle">Welcom to Computer calculater</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+         All aratmatic calculation <cite title="Source Title">Created by Pushkar Dixit</cite>
+        </figcaption>
+      </figure>
+
+   
+<div id="border"></div>
+
+
+        
+       
+      </div>
+    <script>
+   
+            var c = parseInt(prompt("enter first value "))
+        var d = parseInt(prompt("enter second value "))
+       
+        function sub() {
+            document.write('<p class="answerA">The subtraction of two number is ' + (c - d)+'</p>');
+        }
+        function mul() {
+            document.write('<p class="answerA"> The multiplication of two number is ' + (c * d)+'</p>');
+        }
+        function div() {
+            document.write('<p class="answerA" > The  division of two number is ' + (c / d)+'</p>');
+        }
+        function modulo() {
+            document.write('<p class="answerA">  The modulo of two number is ' + (c % d)+'</p>');
+        }
+        function add() {
+            document.write('<p class="answerA" > The addition of two number is ' + (c + d)+'</p>');
+        }
+        var op = (prompt("enter operation"))
+        var opr = (op)
+         if (opr == "+") {
+            add()
+        }
+        else if (opr == "-") {
+            sub()
+        }
+        else if (opr == "*") {
+            mul()
+        }
+        else if (opr == "/") {
+            div()
+        }
+        else if (opr == "%") {
+            modulo()
+        }
+        else {
+            document.write("select valid operation")
+        }
+
+
+
+    </script>
+</body>
+
+</html>
+    </script>
+</body>
+</html>
